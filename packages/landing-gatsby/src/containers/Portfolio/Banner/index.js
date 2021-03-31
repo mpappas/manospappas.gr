@@ -41,18 +41,18 @@ const BannerSection = ({
         <Box {...row}>
           <Box {...contentArea}>
             <Heading content="Hello, I’m" {...greetingStyle} />
-            <Heading content="Jon Doe" {...nameStyle} />
-            <Heading content="Visual System Designer" {...designationStyle} />
+            <Heading content="Manos Pappas" {...nameStyle} />
+            <Heading content="Software Egnineer" {...designationStyle} />
             <Box {...roleWrapper}>
               <Icon
                 icon={cornerDownRight}
                 style={{ color: '#3444f1' }}
                 size={22}
               />
-              <Heading content="Illustrative Lead at RedQ" {...roleStyle} />
+              <Heading content="working for Vonage" {...roleStyle} />
             </Box>
             <Text
-              content="The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Lorem Ipsum is simply dummy text of the printing."
+              content="I am passionate about building excellent software that improves the lives of those around me. I specialize in creating software for clients ranging from individuals and small-businesses all the way to large enterprise corporations."
               {...aboutStyle}
             />
             <SocialProfile items={Data.portfolioJson.SOCIAL_PROFILES} />
