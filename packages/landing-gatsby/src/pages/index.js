@@ -26,7 +26,7 @@ export default () => {
   return (
     <ThemeProvider theme={portfolioTheme}>
       <Fragment>
-        <SEO title="Portfolio | A react next landing page" />
+        <SEO title="Manos Pappas" />
         <ResetCSS />
         <GlobalStyle />
 

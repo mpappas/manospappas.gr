@@ -29,13 +29,13 @@
       "offset": "0"
     },
     {
-      "label": "AWARDS",
-      "path": "#awards_section",
+      "label": "WHY ME?",
+      "path": "#process_section",
       "offset": "0"
     },
     {
-      "label": "WHY ME?",
-      "path": "#process_section",
+      "label": "LET'S TALK",
+      "path": "#contact_section", 
       "offset": "0"
     }
   ],

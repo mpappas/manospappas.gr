@@ -11,8 +11,9 @@ import Container from 'common/components/UI/Container';
 import { DrawerContext } from 'common/contexts/DrawerContext';
 import ScrollSpyMenu from 'common/components/ScrollSpyMenu';
 
-import LogoImage from 'common/assets/image/portfolio/logo.png';
+import LogoImage from 'common/assets/image/portfolio/logo_short.png';
 import LogoImageAlt from 'common/assets/image/portfolio/logo-alt.png';
+import resumePDF from '../../../common/assets/image/portfolio/resumeV4.pdf';
 
 const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
   const Data = useStaticQuery(graphql`
@@ -41,7 +42,7 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
       <Container noGutter mobileGutter width="1200px">
         <Box {...row}>
           <Logo
-            href="/portfolio"
+            href="/"
             logoSrc={LogoImage}
             title="Portfolio"
             logoStyle={logoStyle}
@@ -60,9 +61,15 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
               menuItems={Data.portfolioJson.MENU_ITEMS}
               offset={-70}
             />
-            <a className="navbar_button" href="#1">
-              <Button {...button} title="LET'S TALK" />
+            <a
+              className="navbar_button"
+              href={resumePDF}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button {...button} title="RESUME" />
             </a>
+
             <Drawer
               width="420px"
               placement="right"

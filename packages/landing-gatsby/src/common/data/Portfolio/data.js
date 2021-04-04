@@ -71,13 +71,13 @@ export const MENU_ITEMS = [
     offset: '0',
   },
   {
-    label: 'AWARDS',
-    path: '#awards_section',
+    label: 'WHY ME?',
+    path: '#process_section',
     offset: '0',
   },
   {
-    label: 'WHY ME?',
-    path: '#process_section',
+    label: "LET'S TALK",
+    path: '#contact_section', // Was linked to #awards_section
     offset: '0',
   },
 ];
