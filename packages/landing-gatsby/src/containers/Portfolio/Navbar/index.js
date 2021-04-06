@@ -13,7 +13,7 @@ import ScrollSpyMenu from 'common/components/ScrollSpyMenu';
 
 import LogoImage from 'common/assets/image/portfolio/logo_short.png';
 import LogoImageAlt from 'common/assets/image/portfolio/logo-alt.png';
-import resumePDF from '../../../common/assets/image/portfolio/resumeV4.pdf';
+import resumePDF from '../../../common/assets/image/portfolio/resume.pdf';
 
 const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
   const Data = useStaticQuery(graphql`
