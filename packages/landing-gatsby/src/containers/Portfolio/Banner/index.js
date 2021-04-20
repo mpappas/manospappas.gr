@@ -11,7 +11,7 @@ import SocialProfile from '../SocialProfile';
 import BannerWrapper from './banner.style';
 
 import { cornerDownRight } from 'react-icons-kit/feather/cornerDownRight';
-import PersonImage from 'common/assets/image/portfolio/person.png';
+import PersonImage from 'common/assets/image/portfolio/surr-675.png';
 
 const BannerSection = ({
   row,

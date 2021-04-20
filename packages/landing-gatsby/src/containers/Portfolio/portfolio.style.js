@@ -224,7 +224,7 @@ export const ContentWrapper = styled.div`
             position: absolute;
             width: calc(100% - 8px);
             height: 11px;
-            background: #3444f1;
+            background: #0ecea9;
             bottom: 6px;
             left: 0;
             z-index: -1;
