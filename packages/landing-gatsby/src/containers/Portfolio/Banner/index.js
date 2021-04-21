@@ -11,7 +11,7 @@ import SocialProfile from '../SocialProfile';
 import BannerWrapper from './banner.style';
 
 import { cornerDownRight } from 'react-icons-kit/feather/cornerDownRight';
-import PersonImage from 'common/assets/image/portfolio/surr-675.png';
+import PersonImage from 'common/assets/image/portfolio/flame-809.png';
 
 const BannerSection = ({
   row,
@@ -52,7 +52,7 @@ const BannerSection = ({
               <Heading content="working for Vonage" {...roleStyle} />
             </Box>
             <Text
-              content="I am passionate about building excellent software that improves the lives of those around me. I specialize in creating software for clients ranging from individuals and small-businesses all the way to large enterprise corporations."
+              content="I'm a London-based software engineer who is passionate about Web technologies and Cloud communications. Here I will try to share my insights and experiences from my journey. Valuable lessons been taught by talented-smart people who helped suck? a bit less (maybe)."
               {...aboutStyle}
             />
             <SocialProfile items={Data.portfolioJson.SOCIAL_PROFILES} />
