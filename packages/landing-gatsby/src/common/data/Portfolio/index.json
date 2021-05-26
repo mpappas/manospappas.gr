@@ -1,15 +1,15 @@
 {
   "SOCIAL_PROFILES": [
     {
-      "icon": "flaticon-facebook-logo",
-      "url": "#"
-    },
-    {
-      "icon": "flaticon-twitter-logo-silhouette",
+      "icon": "flaticon-conversation",
       "url": "#"
     },
     {
       "icon": "flaticon-instagram",
+      "url": "#"
+    },
+    {
+      "icon": "flaticon-twitter-logo-silhouette",
       "url": "#"
     },
     {

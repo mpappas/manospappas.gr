@@ -12,6 +12,7 @@ import BannerWrapper from './banner.style';
 
 import { cornerDownRight } from 'react-icons-kit/feather/cornerDownRight';
 import PersonImage from 'common/assets/image/portfolio/flame-809.png';
+// import PersonImage from 'common/assets/image/portfolio/lime-sign-in.png';
 
 const BannerSection = ({
   row,
