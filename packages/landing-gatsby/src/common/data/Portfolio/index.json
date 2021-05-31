@@ -1,6 +1,10 @@
 {
   "SOCIAL_PROFILES": [
     {
+      "icon": "flaticon-twitter-logo-silhouette",
+      "url": "#"
+    },
+    {
       "icon": "flaticon-conversation",
       "url": "#"
     },
@@ -9,11 +13,7 @@
       "url": "#"
     },
     {
-      "icon": "flaticon-twitter-logo-silhouette",
-      "url": "#"
-    },
-    {
-      "icon": "flaticon-dribble-logo",
+      "icon": "flaticon-startup",
       "url": "#"
     }
   ],

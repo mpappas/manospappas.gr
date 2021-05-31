@@ -11,8 +11,7 @@ import SocialProfile from '../SocialProfile';
 import BannerWrapper from './banner.style';
 
 import { cornerDownRight } from 'react-icons-kit/feather/cornerDownRight';
-import PersonImage from 'common/assets/image/portfolio/flame-809.png';
-// import PersonImage from 'common/assets/image/portfolio/lime-sign-in.png';
+import PersonImage from 'common/assets/image/portfolio/6.png';
 
 const BannerSection = ({
   row,
@@ -59,7 +58,7 @@ const BannerSection = ({
             <SocialProfile items={Data.portfolioJson.SOCIAL_PROFILES} />
           </Box>
           <Box {...imageArea} className="image_area">
-            <Image src={PersonImage} alt="Mat Helme" />
+            <Image src={PersonImage} alt="Manos Pappas Software Engineer" />
           </Box>
         </Box>
       </Container>
