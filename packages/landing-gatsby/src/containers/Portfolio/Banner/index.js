@@ -1,13 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { useStaticQuery, graphql } from 'gatsby';
+// import { useStaticQuery, graphql } from 'gatsby';
 import Icon from 'react-icons-kit';
 import Box from 'common/components/Box';
 import Text from 'common/components/Text';
 import Heading from 'common/components/Heading';
 import Image from 'common/components/Image';
 import Container from 'common/components/UI/Container';
-import SocialProfile from '../SocialProfile';
+// import SocialProfile from '../SocialProfile';
 import BannerWrapper from './banner.style';
 
 import { cornerDownRight } from 'react-icons-kit/feather/cornerDownRight';
@@ -24,16 +24,16 @@ const BannerSection = ({
   roleStyle,
   roleWrapper,
 }) => {
-  const Data = useStaticQuery(graphql`
-    query {
-      portfolioJson {
-        SOCIAL_PROFILES {
-          icon
-          url
-        }
-      }
-    }
-  `);
+  // const Data = useStaticQuery(graphql`
+  //   query {
+  //     portfolioJson {
+  //       SOCIAL_PROFILES {
+  //         icon
+  //         url
+  //       }
+  //     }
+  //   }
+  // `);
 
   return (
     <BannerWrapper id="banner_section">
@@ -52,10 +52,10 @@ const BannerSection = ({
               <Heading content="working for Vonage" {...roleStyle} />
             </Box>
             <Text
-              content="I'm a London-based software engineer who is passionate about Web technologies and Cloud communications. Here I will try to share my insights and experiences from my journey. Valuable lessons been taught by talented-smart people who helped suck? a bit less (maybe)."
+              content="A Greece born, London-based software engineer who is passionate about Web technologies and Cloud communications. Here I will try to share my insights and experiences from my journey in London and more."
               {...aboutStyle}
             />
-            <SocialProfile items={Data.portfolioJson.SOCIAL_PROFILES} />
+            {/* <SocialProfile items={Data.portfolioJson.SOCIAL_PROFILES} /> */}
           </Box>
           <Box {...imageArea} className="image_area">
             <Image src={PersonImage} alt="Manos Pappas Software Engineer" />

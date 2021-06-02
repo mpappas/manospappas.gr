@@ -57,17 +57,18 @@ const ProcessSection = ({
     }
   `);
 
+  const mailto = () => {
+    window.location.href = 'mailto:hello@manospappas.gr';
+  };
+
   return (
     <Box {...sectionWrapper} as="section" id="process_section">
       <Container noGutter mobileGutter width="1200px">
         <Box {...secTitleWrapper}>
-          <Heading
-            {...secTitle}
-            content="From Lean Design Sprints to Agile Development"
-          />
+          <Heading {...secTitle} content="I'm a full-stack web developer" />
           <Text
             {...secDescription}
-            content="Our process is designed to give you the best shot at success."
+            content="Someone who is highly focused and attentive to detail, effective problem solver who understands and designs the solution in time."
           />
         </Box>
 
@@ -94,26 +95,31 @@ const ProcessSection = ({
         <Box {...learningRow}>
           <Box {...learningContentArea}>
             <Heading
-              content="Which is why we Never Stop Learning."
+              content="My almost 5 years journey so far in London"
               {...learningTitle}
             />
             <Text
-              content="We believe that we succeed when our clients succeed."
+              content="An amazing experience with various valueable lessons."
               {...learningSubTitle}
             />
             <Text
               {...learningDescription}
-              content="I’m Tom Parkes, a New Zealand born digital designer currently looking for opportunities in Canada. Over the 8 years of my career, my portfolio includes user interface design, brand & identity design, illustration, and art & creative direction."
+              content="I’m Manos Pappas, born and raised in Crete, the southern Greek island based in London for the last a few years."
             />
             <Text
               {...learningDescription}
-              content="While at Neverbland over the last few years, I've worked on web and product solutions for a range of startups, in a variety of industries."
+              content="For the last almost 4 and a half years I am working for Vonage, a Cloud Communications company, contributing on the implementation of Communication (REST) APIs for Voice and Video RTC. I have been (charged/appointed) with optimising infrastructure sizing and scaling by performing loadtests to allow faster onboarding of new customers, and I have helped the team meet high quality standards -being one of the main contributors on the way to achieve 99% coverage."
+            />
+            <Text
+              {...learningDescription}
+              content="I have successfully collaborated across teams with tasks that include designing, developing, automating and deploying."
             />
             <Box {...buttonWrapper}>
               <Text content="Start Your Project ?" {...buttonLabelStyle} />
               <ButtonWrapper>
                 <Button
-                  title="hello@redq.io"
+                  title="hello@manospappas.gr"
+                  onClick={mailto}
                   className="portfolio_button"
                   {...buttonStyle}
                 />

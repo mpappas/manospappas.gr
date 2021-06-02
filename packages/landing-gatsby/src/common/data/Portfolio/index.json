@@ -323,17 +323,17 @@
   "PROCESS_STEPS": [
     {
       "image": "../../assets/image/portfolio/step-1.png",
-      "title": "1. Research",
+      "title": "1. Backend",
       "description": "We work with you to understand user’s stories and validate your idea with real users using lean design sprints."
     },
     {
       "image": "../../assets/image/portfolio/step-2.png",
-      "title": "2. Design",
+      "title": "2. Frontend",
       "description": "Expanding on the insights gained, you’ll work closely with our design team to create an elegant design"
     },
     {
       "image": "../../assets/image/portfolio/step-3.png",
-      "title": "3. Build",
+      "title": "3. Quality",
       "description": "With our scrum-based agile methodology, you’ll receive iterative builds every two weeks, which gives you "
     }
   ],
