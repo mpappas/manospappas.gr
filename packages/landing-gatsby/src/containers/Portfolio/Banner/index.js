@@ -11,7 +11,7 @@ import Container from 'common/components/UI/Container';
 import BannerWrapper from './banner.style';
 
 import { cornerDownRight } from 'react-icons-kit/feather/cornerDownRight';
-import PersonImage from 'common/assets/image/portfolio/6.png';
+import PersonImage from 'common/assets/image/portfolio/6-01.svg';
 
 const BannerSection = ({
   row,

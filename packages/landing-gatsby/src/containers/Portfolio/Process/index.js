@@ -115,7 +115,7 @@ const ProcessSection = ({
               content="I have successfully collaborated across teams with tasks that include designing, developing, automating and deploying."
             />
             <Box {...buttonWrapper}>
-              <Text content="Start Your Project ?" {...buttonLabelStyle} />
+              {/* <Text content="Let's talk :)" {...buttonLabelStyle} /> */}
               <ButtonWrapper>
                 <Button
                   title="hello@manospappas.gr"
@@ -231,8 +231,8 @@ ProcessSection.defaultProps = {
     mt: ['20px', '30px', '70px', '80px', '110px'],
   },
   learningContentArea: {
-    width: ['100%', '100%', '50%', '50%', '50%'],
-    pr: ['0px', '0px', '60px', '80px', '160px'],
+    width: ['100%', '100%', '50%', '50%', '45%'],
+    pr: ['0px', '0px', '60px', '80px', '130px'],
     mb: ['70px', '70px', '0', '0', '0'],
   },
   learningTitle: {
@@ -280,12 +280,12 @@ ProcessSection.defaultProps = {
     pr: '23px',
   },
   learningListArea: {
-    width: ['100%', '100%', '50%', '50%', '50%'],
+    width: ['100%', '100%', '50%', '50%', '55%'],
     flexBox: true,
     flexWrap: 'wrap',
   },
   learningList: {
-    width: ['100%', '33.3333333%', '50%', '50%', '50%'],
+    width: ['100%', '33.3333333%', '50%', '50%', '33%'],
     pl: ['0', '0', '35px', '35px', '35x'],
     pr: ['0', '30px', '0', '0', '0'],
     mb: ['40px', '40px', '60px', '80px', '90px'],

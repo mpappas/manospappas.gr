@@ -324,86 +324,140 @@
     {
       "image": "../../assets/image/portfolio/step-1.png",
       "title": "1. Backend",
-      "description": "We work with you to understand user’s stories and validate your idea with real users using lean design sprints."
+      "description": "APIs implementation | Speed and efficiency optimization of services | Test and Monitor"
     },
     {
       "image": "../../assets/image/portfolio/step-2.png",
       "title": "2. Frontend",
-      "description": "Expanding on the insights gained, you’ll work closely with our design team to create an elegant design"
+      "description": "Wep Applications development | Performance | Unique user Experience | Usability | Accessibility"
     },
     {
       "image": "../../assets/image/portfolio/step-3.png",
       "title": "3. Quality",
-      "description": "With our scrum-based agile methodology, you’ll receive iterative builds every two weeks, which gives you "
+      "description": "Unit, Integration, E2E testing | Code Reviews | Monitoring & Alerting"
     }
   ],
   "SERVICE_LIST": [
     {
-      "title": "UI/UX Design",
+      "title": "Languages",
       "listItems": [
         {
-          "content": "Design Sprints"
+          "content": "JS (ES2020)"
         },
         {
-          "content": "User Research"
+          "content": "Typescript"
         },
         {
-          "content": "Visual Design"
+          "content": "Python"
         },
         {
-          "content": "Mobile App Design"
-        },
-        {
-          "content": "Tracking & Learning"
-        },
-        {
-          "content": "Building Traction"
+          "content": "Groovy"
         }
       ]
     },
     {
-      "title": "Web Development",
+      "title": "Front-end",
       "listItems": [
         {
           "content": "ReactJS"
         },
         {
-          "content": "AngularJS"
+          "content": "React Hooks"
         },
         {
-          "content": "ASP.NET MVC"
+          "content": "Performance"
         },
         {
-          "content": "WordPress"
+          "content": "Redux"
         },
         {
-          "content": "NodeJS"
+          "content": "Style components"
         },
         {
-          "content": "GO"
+          "content": "Material UI"
+        },
+        {
+          "content": "Wordpress"
         }
       ]
     },
     {
-      "title": "Mobile App Development",
+      "title": "Back-end",
       "listItems": [
-        {
-          "content": "iOS"
-        },
-        {
-          "content": "Android"
-        },
-        {
-          "content": "React Native"
-        },
-        {
-          "content": "Ionic & Apache Cordova"
-        },
         {
           "content": "NodeJS"
         },
         {
-          "content": "3D & VR"
+          "content": "Express / Restify"
+        },
+        {
+          "content": "CI/CD"
+        },
+        {
+          "content": "Microservices"
+        },
+        {
+          "content": "NoSQL"
+        },
+        {
+          "content": "GraphQL/Apollo"
+        }
+      ]
+    },
+    {
+      "title": "Testing",
+      "listItems": [
+        {
+          "content": "Jest"
+        },
+        {
+          "content": "Mocha"
+        },
+        {
+          "content": "Sinon / Chai"
+        },
+        {
+          "content": "Pytest"
+        },
+        {
+          "content": "SipP"
+        },
+        {
+          "content": "Gatling"
+        },
+        {
+          "content": "Gherkin / Cucumber"
+        }
+      ]
+    },
+    {
+      "title": "Infrastructure",
+      "listItems": [
+        {
+          "content": "Docker"
+        },
+        {
+          "content": "AWS Services"
+        },
+        {
+          "content": "nginx"
+        },
+        {
+          "content": "Terraform"
+        }
+      ]
+    },
+    {
+      "title": "Monitoring",
+      "listItems": [
+        {
+          "content": "ELK Stack"
+        },
+        {
+          "content": "FileBeat"
+        },
+        {
+          "content": "Grafana"
         }
       ]
     }
