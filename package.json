@@ -17,13 +17,9 @@
   ],
   "scripts": {
     "clean": "yarn workspaces run rimraf \"{.next,node_modules,.cache,out,dist}\" && rimraf node_modules",
-    "next-dev": "yarn workspace @superprops/next run dev",
-    "next-build": "yarn workspace @superprops/next run build",
-    "next-start": "yarn workspace @superprops/next run start",
-    "next-export": "yarn workspace @superprops/next run export",
-    "gatsby-dev": "yarn workspace @superprops/gatsby run dev",
-    "gatsby-build": "yarn workspace @superprops/gatsby run build",
-    "gatsby-serve": "yarn workspace @superprops/gatsby run start"
+    "gatsby-dev": "yarn workspace manospappas.gr run dev",
+    "gatsby-build": "yarn workspace manospappas.gr run build",
+    "gatsby-serve": "yarn workspace manospappas.gr run start"
   },
   "husky": {
     "hooks": {

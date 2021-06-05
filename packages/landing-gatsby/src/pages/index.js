@@ -17,7 +17,7 @@ import ProcessSection from 'containers/Portfolio/Process';
 import SkillSection from 'containers/Portfolio/Skill';
 import CallToAction from 'containers/Portfolio/CallToAction';
 import TestimonialSection from 'containers/Portfolio/Testimonial';
-import ClientsSection from 'containers/Portfolio/Clients';
+// import ClientsSection from 'containers/Portfolio/Clients';
 import ContactSection from 'containers/Portfolio/Contact';
 import Footer from 'containers/Portfolio/Footer';
 import SEO from 'components/seo';
@@ -37,13 +37,13 @@ export default () => {
             </DrawerProvider>
           </Sticky>
           <BannerSection />
-          <PortfolioShowcase />
-          <AwardsSection />
           <ProcessSection />
           <SkillSection />
           <CallToAction />
+          <AwardsSection />
           <TestimonialSection />
-          <ClientsSection />
+          {/* <ClientsSection /> */}
+          <PortfolioShowcase />
           <ContactSection />
           <Footer />
         </ContentWrapper>
