@@ -66,13 +66,13 @@ export const MENU_ITEMS = [
     offset: '0',
   },
   {
-    label: 'PROJECT',
-    path: '#portfolio_section',
+    label: 'SKILS',
+    path: '#process_section',
     offset: '0',
   },
   {
-    label: 'WHY ME?',
-    path: '#process_section',
+    label: 'PROJECT',
+    path: '#portfolio_section',
     offset: '0',
   },
   {
