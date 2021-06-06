@@ -464,8 +464,8 @@
   ],
   "SKILLS": [
     {
-      "title": "Graphic Design",
-      "description": "Aristotle maintained the sharp distinction between science and the practical",
+      "title": "Building your MVP",
+      "description": "Bringing your idea to code from zero to one as a minimal viable product (MVP) and beyond within a well-architected application.",
       "icon": "../../assets/image/portfolio/skill-1.svg",
       "successRate": "90"
     },
@@ -514,6 +514,21 @@
       "title": "Google"
     }
   ],
+  "Timeline": [
+    {
+      "title": "Wireframing for project",
+      "description": "We respect our customer opinions and deals with them with perfect wireframing."
+    },
+    {
+      "title": "UI/UX for project",
+      "description": "We provide the best UI/UX Design by following the latest trends of the market ."
+    },
+    {
+      "title": "Negotiation about project",
+      "description": "After the negotiation is done , We start to build the project with latest technology ."
+    }
+  ],
+  
   "TESTIMONIAL": [
     {
       "image": "../../assets/image/portfolio/client-avatar-1.jpg",
@@ -541,6 +556,48 @@
       "twitterProfile": "https://twitter.com/redqinc",
       "organization": "@Tonquin",
       "organizationURL": "https://redq.io/"
+    }
+  ],
+  "newsFeed": [{
+      "id": 1,
+      "image": "../../assets/image/portfolio/news/1.png",
+      "title": "Introducing our newest team with great experience",
+      "desc": "Brian Halligan knows that you need more than a great product to have a great brand.",
+      "link": "#"
+    },
+    {
+      "id": 2,
+      "image": "../../assets/image/portfolio/news/2.png",
+      "title": "New banking application has  developed and we expecting good feedback",
+      "desc": "",
+      "link": "#"
+    },
+    {
+      "id": 3,
+      "image": "../../assets/image/portfolio/news/3.png",
+      "title": "Ui/UX industry are doing great job in previous year history",
+      "desc": "",
+      "link": ""
+    },
+    {
+      "id": 4,
+      "image": "../../assets/image/portfolio/news/4.png",
+      "title": "Develop you design experience with figma features.",
+      "desc": "",
+      "link": ""
+    }
+  ],
+   "helps": [{
+      "id": 1,
+      "icon": "../../assets/image/support1.png",
+      "title": "Email client support",
+      "desc": "Ultimate access to all credit popular exercises and assessments materials"
+    },
+    {
+      "id": 2,
+      "icon": "../../assets/image/support2.png",
+      "title": "Live ticket support",
+      "desc": "Total assessment corrections with live support tickets download access system"
     }
   ],
   "FOOTER_MENU": [

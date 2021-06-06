@@ -36,6 +36,13 @@ import Reviewer1 from '../../assets/image/portfolio/client-avatar-1.jpg';
 import Reviewer2 from '../../assets/image/portfolio/client-avatar-2.jpg';
 import Reviewer3 from '../../assets/image/portfolio/client-avatar-3.jpg';
 
+import support1 from '../../assets/image/support1.png';
+import support2 from '../../assets/image/support2.png';
+import news1 from '../../assets/image/portfolio/news/1.png';
+import news2 from '../../assets/image/portfolio/news/2.png';
+import news3 from '../../assets/image/portfolio/news/3.png';
+import news4 from '../../assets/image/portfolio/news/4.png';
+
 export const SOCIAL_PROFILES = [
   {
     icon: socialTwitter,
@@ -470,9 +477,9 @@ export const SERVICE_LIST = [
 
 export const SKILLS = [
   {
-    title: 'Graphic Design',
+    title: 'Building your MVP',
     description:
-      'Aristotle maintained the sharp distinction between science and the practical',
+      'Bringing your idea to code from zero to one as a minimal viable product (MVP) and beyond within a well-architected application.',
     icon: SkillIcon1,
     successRate: '90',
   },
@@ -526,6 +533,24 @@ export const CLIENTS = [
   },
 ];
 
+export const Timeline = [
+  {
+    title: 'Wireframing for project',
+    description:
+      'We respect our customer opinions and deals with them with perfect wireframing.',
+  },
+  {
+    title: 'UI/UX for project',
+    description:
+      'We provide the best UI/UX Design by following the latest trends of the market .',
+  },
+  {
+    title: 'Negotiation about project',
+    description:
+      'After the negotiation is done , We start to build the project with latest technology .',
+  },
+];
+
 export const TESTIMONIAL = [
   {
     image: Reviewer1,
@@ -558,6 +583,57 @@ export const TESTIMONIAL = [
     organizationURL: 'https://redq.io/',
   },
 ];
+
+export const data = {
+  newsFeed: [
+    {
+      id: 1,
+      image: news1,
+      title: 'Introducing our newest team with great experience',
+      desc:
+        'Brian Halligan knows that you need more than a great product to have a great brand.',
+      link: '#',
+    },
+    {
+      id: 2,
+      image: news2,
+      title:
+        'New banking application has  developed and we expecting good feedback',
+      desc: '',
+      link: '#',
+    },
+    {
+      id: 3,
+      image: news3,
+      title: 'Ui/UX industry are doing great job in previous year history',
+      desc: '',
+      link: '',
+    },
+    {
+      id: 4,
+      image: news4,
+      title: 'Develop you design experience with figma features.',
+      desc: '',
+      link: '',
+    },
+  ],
+  helps: [
+    {
+      id: 1,
+      icon: support1,
+      title: 'Email client support',
+      desc:
+        'Ultimate access to all credit popular exercises and assessments materials',
+    },
+    {
+      id: 2,
+      icon: support2,
+      title: 'Live ticket support',
+      desc:
+        'Total assessment corrections with live support tickets download access system',
+    },
+  ],
+};
 
 export const FOOTER_MENU = [
   {
