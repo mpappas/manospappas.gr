@@ -535,19 +535,19 @@ export const CLIENTS = [
 
 export const Timeline = [
   {
-    title: 'Wireframing for project',
+    title: 'Web & Mobile Development',
     description:
-      'We respect our customer opinions and deals with them with perfect wireframing.',
+      'Built accessible, inclusive web and mobile apps with focus on digital experiences.',
   },
   {
-    title: 'UI/UX for project',
+    title: 'API Development',
     description:
-      'We provide the best UI/UX Design by following the latest trends of the market .',
+      'Built Communication (REST) APIs, helping team meet high quiality standards by covering with tests and achieving 99% coverage.',
   },
   {
-    title: 'Negotiation about project',
+    title: 'Cloud Technologies',
     description:
-      'After the negotiation is done , We start to build the project with latest technology .',
+      'Experience with various AWS services like Lanbda, API Gateway, S3, CloudFront, Cognito, Dynamo-DB, Route53 and more.',
   },
 ];
 
@@ -631,6 +631,97 @@ export const data = {
       title: 'Live ticket support',
       desc:
         'Total assessment corrections with live support tickets download access system',
+    },
+  ],
+};
+
+// Client Logo
+import nodejs from '../../assets/image/portfolio/technologies/nodejs2.png';
+import expressjs from '../../assets/image/portfolio/technologies/Expressjs.png';
+import reactjs from '../../assets/image/portfolio/technologies/reactjs.png';
+import graphql from '../../assets/image/portfolio/technologies/graphql.png';
+import redux from '../../assets/image/portfolio/technologies/Redux.png';
+import gatsby from '../../assets/image/portfolio/technologies/gatsby.png';
+import jamstack from '../../assets/image/portfolio/technologies/Jamstack.png';
+import vue from '../../assets/image/portfolio/technologies/vue.png';
+import couchbase from '../../assets/image/portfolio/technologies/couchbase.png';
+import aws from '../../assets/image/portfolio/technologies/aws.png';
+import elk from '../../assets/image/portfolio/technologies/elk.png';
+import grafana from '../../assets/image/portfolio/technologies/grafana.png';
+
+export const experiences = {
+  technologies: [
+    {
+      id: 1,
+      logo: nodejs,
+      name: 'nodejs',
+      link: '#1',
+    },
+    {
+      id: 2,
+      logo: expressjs,
+      name: 'expressjs',
+      link: '#2',
+    },
+    {
+      id: 3,
+      logo: reactjs,
+      name: 'reactjs',
+      link: '#3',
+    },
+    {
+      id: 4,
+      logo: graphql,
+      name: 'graphql',
+      link: '#4',
+    },
+    {
+      id: 5,
+      logo: redux,
+      name: 'redux',
+      link: '#5',
+    },
+    {
+      id: 6,
+      logo: gatsby,
+      name: 'gatsby',
+      link: '#6',
+    },
+    {
+      id: 7,
+      logo: jamstack,
+      name: 'jamstack',
+      link: '#7',
+    },
+    {
+      id: 8,
+      logo: vue,
+      name: 'vue',
+      link: '#8',
+    },
+    {
+      id: 9,
+      logo: couchbase,
+      name: 'couchbase',
+      link: '#9',
+    },
+    {
+      id: 10,
+      logo: aws,
+      name: 'aws',
+      link: '#10',
+    },
+    {
+      id: 11,
+      logo: elk,
+      name: 'elk',
+      link: '#11',
+    },
+    {
+      id: 12,
+      logo: grafana,
+      name: 'grafana',
+      link: '#12',
     },
   ],
 };

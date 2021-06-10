@@ -39,8 +39,8 @@ const News = () => {
     <Section id="blog">
       <Container>
         <SectionHeading
-          slogan="Ideal solutions for you"
-          title="Go beyond ultimate features"
+          slogan="A few highlights of my life"
+          title="Things I am proud or excited about"
         />
         <ContentWrapper>
           <Masonry className="masonryGrid" options={masonryOptions}>
@@ -56,9 +56,9 @@ const News = () => {
                   <h4>{news.title}</h4>
                   {news.desc && <p>{news.desc}</p>}
                   {news.link && (
-                    <Link href={news.link} className="learnMore">
-                      Learn More <Icon icon={chevronRight} />
-                    </Link>
+                    // <Link href={news.link} className="learnMore">
+                    <h4>{news.title}</h4>
+                    // </Link>
                   )}
                 </BlogPost>
               );

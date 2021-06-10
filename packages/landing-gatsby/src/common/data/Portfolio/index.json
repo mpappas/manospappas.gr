@@ -337,6 +337,111 @@
       "description": "Unit, Integration, E2E testing | Code Reviews | Monitoring & Alerting"
     }
   ],
+  "experiences": {
+    "title": "Listen our user experience stories",
+    "slogan": "Build an incredible workplace and grow your business with Gusto’s all-in-one platform with amazing contents.",
+    "video_theme": "../../assets/image/portfolio/experienceVideo.png",
+    "features": [
+      {
+        "id": 1,
+        "icon": "../../assets/image/portfolio/experience/1.png",
+        "title": "Professional Environment",
+        "description": "We enjoy office retreats and visit famous places of our country and abroad also! We have planned to extend our business."
+      },
+      {
+        "id": 2,
+        "icon": "../../assets/image/portfolio/experience/2.png",
+        "title": "Worked with experienced team",
+        "description": "With more than 100,000 users, we are is growing fast. Currently, we are a team of 65+ people"
+      },
+      {
+        "id": 3,
+        "icon": "../../assets/image/portfolio/experience/3.png",
+        "title": "Ultimate skill development",
+        "description": "Life is what happens when you’re busy working. We make sure you enjoy it with ultimate experience."
+      },
+      {
+        "id": 4,
+        "icon": "../../assets/image/portfolio/experience/4.png",
+        "title": "Professional Environment",
+        "description": "We build amazing things that work with awesome people who are WordPress enthusiasts, talented, eager to learn and team players."
+      }
+    ],
+    "technologies": [
+      {
+        "id": 1,
+        "logo": "../../assets/image/portfolio/technologies/nodejs2.png",
+        "name": "nodejs",
+        "link": "#1"
+      },
+      {
+        "id": 2,
+        "logo": "../../assets/image/portfolio/technologies/Expressjs.png",
+        "name": "expressjs",
+        "link": "#2"
+      },
+      {
+        "id": 3,
+        "logo": "../../assets/image/portfolio/technologies/reactjs.png",
+        "name": "reactjs",
+        "link": "#3"
+      },
+      {
+        "id": 4,
+        "logo": "../../assets/image/portfolio/technologies/graphql.png",
+        "name": "graphql",
+        "link": "#4"
+      },
+      {
+        "id": 5,
+        "logo": "../../assets/image/portfolio/technologies/Redux.png",
+        "name": "redux",
+        "link": "#5"
+      },
+      {
+        "id": 6,
+        "logo": "../../assets/image/portfolio/technologies/gatsby.png",
+        "name": "gatsby",
+        "link": "#6"
+      },
+      {
+        "id": 7,
+        "logo": "../../assets/image/portfolio/technologies/Jamstack.png",
+        "name": "jamstack",
+        "link": "#7"
+      },
+      {
+        "id": 8,
+        "logo": "../../assets/image/portfolio/technologies/vue.png",
+        "name": "vue",
+        "link": "#8"
+      },
+      {
+        "id": 9,
+        "logo": "../../assets/image/portfolio/technologies/couchbase.png",
+        "name": "couchbase",
+        "link": "#9"
+      },
+      {
+        "id": 10,
+        "logo": "../../assets/image/portfolio/technologies/aws.png",
+        "name": "aws",
+        "link": "#10"
+      },
+      {
+        "id": 11,
+        "logo": "../../assets/image/portfolio/technologies/elk.png",
+        "name": "elk",
+        "link": "#11"
+      },
+      {
+        "id": 12,
+        "logo": "../../assets/image/portfolio/technologies/grafana.png",
+        "name": "grafana",
+        "link": "#12"
+      }
+    ]
+  },
   "SERVICE_LIST": [
     {
       "title": "Languages",
@@ -516,16 +621,16 @@
   ],
   "Timeline": [
     {
-      "title": "Wireframing for project",
-      "description": "We respect our customer opinions and deals with them with perfect wireframing."
+      "title": "Web & Mobile Development",
+      "description": "I like building accessible, inclusive web and mobile apps with focus on digital experiences."
     },
     {
-      "title": "UI/UX for project",
-      "description": "We provide the best UI/UX Design by following the latest trends of the market ."
+      "title": "API Development",
+      "description": "Built Communication (REST) APIs, helping team meet high quiality standards by covering with tests and achieving 99% coverage."
     },
     {
-      "title": "Negotiation about project",
-      "description": "After the negotiation is done , We start to build the project with latest technology ."
+      "title": "Cloud Technologies",
+      "description": "Experience with various AWS services like Lanbda, API Gateway, S3, CloudFront, Cognito, Dynamo-DB, Route53 and more."
     }
   ],
   

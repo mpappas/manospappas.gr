@@ -14,8 +14,8 @@ import Navbar from 'containers/Portfolio/Navbar';
 // import AwardsSection from 'containers/Portfolio/Awards';
 import PortfolioShowcase from 'containers/Portfolio/PortfolioShowcase';
 import ProcessSection from 'containers/Portfolio/Process';
-import SkillSection from 'containers/Portfolio/Skill';
-import CallToAction from 'containers/Portfolio/CallToAction';
+// import SkillSection from 'containers/Portfolio/Skill';
+// import CallToAction from 'containers/Portfolio/CallToAction';
 // import TestimonialSection from 'containers/Portfolio/Testimonial';
 // import ClientsSection from 'containers/Portfolio/Clients';
 import TimelineSection from 'containers/Portfolio/TimelineSection';
@@ -24,6 +24,7 @@ import Footer from 'containers/Portfolio/Footer';
 import SEO from 'components/seo';
 import News from 'containers/Portfolio/News';
 import Support from 'containers/Portfolio/Support';
+// import Experiences from 'containers/Portfolio/Experience';
 
 export default () => {
   return (
@@ -42,15 +43,17 @@ export default () => {
           <BannerSection />
           <ProcessSection />
           <TimelineSection />
-          <SkillSection />
-          <CallToAction />
+          {/* <Experiences /> */}
+          {/* <SkillSection /> */}
           <PortfolioShowcase />
+          <Support />
           <News />
           {/* <AwardsSection /> */}
           {/* <TestimonialSection /> */}
           {/* <ClientsSection /> */}
-          <Support />
+          {/* <CallToAction /> */}
           <ContactSection />
+
           <Footer />
         </ContentWrapper>
       </Fragment>

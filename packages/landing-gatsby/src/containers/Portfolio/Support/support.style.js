@@ -11,6 +11,7 @@ const Section = styled.section`
   @media screen and (max-width: 480px) {
     padding: 0px 0 10px;
   }
+  background-color: #f9f9f9;
 `;
 
 export const ContentWrapper = styled.div`

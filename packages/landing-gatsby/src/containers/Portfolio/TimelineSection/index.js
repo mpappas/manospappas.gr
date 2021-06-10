@@ -6,9 +6,9 @@ import Slide from 'react-reveal/Slide';
 import Box from 'common/components/Box';
 import Text from 'common/components/Text';
 import Heading from 'common/components/Heading';
-import Button from 'common/components/Button';
 import Image from 'common/components/Image';
 import Container from 'common/components/UI/Container';
+import Logo from 'common/components/UIElements/Logo';
 
 import {
   TimelineWrapper,
@@ -19,6 +19,12 @@ import {
   Hidden,
 } from './timeline.style';
 
+import SectionWrapper, {
+  ClientWrapper,
+  ImageSlider,
+  ImageSlide,
+} from './experience.style';
+
 import Illustration from 'common/assets/image/portfolio/6.png';
 
 const TimelineSection = ({
@@ -28,11 +34,9 @@ const TimelineSection = ({
   sectionSubTitle,
   row,
   col,
-  button,
   textArea,
   imageArea,
   imageTwo,
-  buttonWrapper,
   indexStyle,
   timelineTitle,
   timelineDescription,
@@ -44,18 +48,30 @@ const TimelineSection = ({
           title
           description
         }
+        experiences {
+          technologies {
+            id
+            logo {
+              publicURL
+            }
+            name
+            link
+          }
+        }
       }
     }
   `);
+
+  const { technologies } = Data.portfolioJson.experiences;
 
   return (
     <Box {...sectionWrapper}>
       <Container>
         <Box {...sectionHeader}>
-          <Text {...sectionSubTitle} content="WORKING STEP" />
+          <Text {...sectionSubTitle} content="TECHNOLOGIES" />
           <Heading
             {...sectionTitle}
-            content="Here we may show major Favourite Tech (NodeJS, ReactJS)"
+            content="As a full stack web developer I've worked on"
           />
         </Box>
         <Box {...row}>
@@ -104,11 +120,35 @@ const TimelineSection = ({
             </TimelineWrapper>
           </Box>
         </Box>
-        <Box {...buttonWrapper}>
+        <ClientWrapper>
+          <ImageSlider>
+            <ImageSlide>
+              {technologies.map((item) => (
+                <Logo
+                  key={`slide1__key${item.id}`}
+                  href={item.link}
+                  logoSrc={item.logo.publicURL}
+                  title={item.name}
+                />
+              ))}
+            </ImageSlide>
+            <ImageSlide>
+              {technologies.map((item) => (
+                <Logo
+                  key={`slide2__key${item.id}`}
+                  href={item.link}
+                  logoSrc={item.logo.publicURL}
+                  title={item.name}
+                />
+              ))}
+            </ImageSlide>
+          </ImageSlider>
+        </ClientWrapper>
+        {/* <Box {...buttonWrapper}>
           <a href="#1">
             <Button {...button} title="HIRE FOR PROJECT" />
           </a>
-        </Box>
+        </Box> */}
       </Container>
     </Box>
   );
@@ -136,6 +176,7 @@ TimelineSection.defaultProps = {
     as: 'section',
     pt: ['60px', '80px', '80px', '80px'],
     pb: ['60px', '80px', '80px', '80px'],
+    bg: '#f9f9f9',
   }, // section header default style
   sectionHeader: {
     mb: '56px',
@@ -222,7 +263,7 @@ TimelineSection.defaultProps = {
   indexStyle: {
     fontSize: ['36px', '42px', '52px', '56px', '72px'],
     fontWeight: '300',
-    color: '#eaebec',
+    color: '#37A48E',
     display: 'block',
     lineHeight: '1',
     mb: '0',
