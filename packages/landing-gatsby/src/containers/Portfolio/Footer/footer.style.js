@@ -4,7 +4,7 @@ export const FooterWrapper = styled.footer`
   position: relative;
   overflow: hidden;
   background-color: #1b1e25;
-  padding: 100px 0;
+  padding: 100px 0 0;
   color: #fff;
   @media (max-width: 990px) {
     padding: 80px 0;
@@ -14,11 +14,6 @@ export const FooterWrapper = styled.footer`
   }
   @media (max-width: 575px) {
     padding: 70px 0 0 0;
-  }
-
-  .heart_sign {
-    color: #ed1225;
-    margin-left: 10px;
   }
 
   .footer_social {
@@ -34,34 +29,6 @@ export const FooterWrapper = styled.footer`
         }
       }
     }
-  }
-`;
-
-export const Newsletter = styled.div`
-  position: relative;
-  display: flex;
-  align-items: stretch;
-  background: #fff;
-  border-radius: 6px;
-  height: 60px;
-
-  .reusecore__input {
-    flex-grow: 1;
-    * {
-      height: 100%;
-    }
-    input {
-      border: none;
-      padding-left: 22px;
-      color: #302b4e;
-      &:focus {
-        outline: none;
-      }
-    }
-  }
-  .reusecore__button {
-    font-weight: 700;
-    font-family: 'Raleway', sans-serif;
   }
 `;
 
