@@ -51,7 +51,10 @@ const SkillSection = ({
     <Box {...sectionWrapper} as="section">
       <Container noGutter mobileGutter width="1200px">
         <Box {...secTitleWrapper}>
-          <Heading {...secTitle} content="Ways I can help you" />
+          <Heading
+            {...secTitle}
+            content="Here maybe general values I can add in a company"
+          />
           <Text
             {...secDescription}
             content="Have a look, some could be interesting to help you achieve your business goals or start that project you always wanted to do... Yes, that one!"

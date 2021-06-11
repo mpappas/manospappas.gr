@@ -36,6 +36,13 @@ import Reviewer1 from '../../assets/image/portfolio/client-avatar-1.jpg';
 import Reviewer2 from '../../assets/image/portfolio/client-avatar-2.jpg';
 import Reviewer3 from '../../assets/image/portfolio/client-avatar-3.jpg';
 
+import support1 from '../../assets/image/support1.png';
+import support2 from '../../assets/image/support2.png';
+import news1 from '../../assets/image/portfolio/news/1.png';
+import news2 from '../../assets/image/portfolio/news/2.png';
+import news3 from '../../assets/image/portfolio/news/3.png';
+import news4 from '../../assets/image/portfolio/news/4.png';
+
 export const SOCIAL_PROFILES = [
   {
     icon: socialTwitter,
@@ -470,9 +477,9 @@ export const SERVICE_LIST = [
 
 export const SKILLS = [
   {
-    title: 'Graphic Design',
+    title: 'Building your MVP',
     description:
-      'Aristotle maintained the sharp distinction between science and the practical',
+      'Bringing your idea to code from zero to one as a minimal viable product (MVP) and beyond within a well-architected application.',
     icon: SkillIcon1,
     successRate: '90',
   },
@@ -526,6 +533,24 @@ export const CLIENTS = [
   },
 ];
 
+export const Timeline = [
+  {
+    title: 'Web & Mobile Development',
+    description:
+      'Built accessible, inclusive web and mobile apps with focus on digital experiences.',
+  },
+  {
+    title: 'API Development',
+    description:
+      'Built Communication (REST) APIs, helping team meet high quiality standards by covering with tests and achieving 99% coverage.',
+  },
+  {
+    title: 'Cloud Technologies',
+    description:
+      'Experience with various AWS services like Lanbda, API Gateway, S3, CloudFront, Cognito, Dynamo-DB, Route53 and more.',
+  },
+];
+
 export const TESTIMONIAL = [
   {
     image: Reviewer1,
@@ -558,6 +583,148 @@ export const TESTIMONIAL = [
     organizationURL: 'https://redq.io/',
   },
 ];
+
+export const data = {
+  newsFeed: [
+    {
+      id: 1,
+      image: news1,
+      title: 'Introducing our newest team with great experience',
+      desc:
+        'Brian Halligan knows that you need more than a great product to have a great brand.',
+      link: '#',
+    },
+    {
+      id: 2,
+      image: news2,
+      title:
+        'New banking application has  developed and we expecting good feedback',
+      desc: '',
+      link: '#',
+    },
+    {
+      id: 3,
+      image: news3,
+      title: 'Ui/UX industry are doing great job in previous year history',
+      desc: '',
+      link: '',
+    },
+    {
+      id: 4,
+      image: news4,
+      title: 'Develop you design experience with figma features.',
+      desc: '',
+      link: '',
+    },
+  ],
+  helps: [
+    {
+      id: 1,
+      icon: support1,
+      title: 'Email client support',
+      desc:
+        'Ultimate access to all credit popular exercises and assessments materials',
+    },
+    {
+      id: 2,
+      icon: support2,
+      title: 'Live ticket support',
+      desc:
+        'Total assessment corrections with live support tickets download access system',
+    },
+  ],
+};
+
+// Client Logo
+import nodejs from '../../assets/image/portfolio/technologies/nodejs2.png';
+import expressjs from '../../assets/image/portfolio/technologies/Expressjs.png';
+import reactjs from '../../assets/image/portfolio/technologies/reactjs.png';
+import graphql from '../../assets/image/portfolio/technologies/graphql.png';
+import redux from '../../assets/image/portfolio/technologies/Redux.png';
+import gatsby from '../../assets/image/portfolio/technologies/gatsby.png';
+import jamstack from '../../assets/image/portfolio/technologies/Jamstack.png';
+import vue from '../../assets/image/portfolio/technologies/vue.png';
+import couchbase from '../../assets/image/portfolio/technologies/couchbase.png';
+import aws from '../../assets/image/portfolio/technologies/aws.png';
+import elk from '../../assets/image/portfolio/technologies/elk.png';
+import grafana from '../../assets/image/portfolio/technologies/grafana.png';
+
+export const experiences = {
+  technologies: [
+    {
+      id: 1,
+      logo: nodejs,
+      name: 'nodejs',
+      link: '#1',
+    },
+    {
+      id: 2,
+      logo: expressjs,
+      name: 'expressjs',
+      link: '#2',
+    },
+    {
+      id: 3,
+      logo: reactjs,
+      name: 'reactjs',
+      link: '#3',
+    },
+    {
+      id: 4,
+      logo: graphql,
+      name: 'graphql',
+      link: '#4',
+    },
+    {
+      id: 5,
+      logo: redux,
+      name: 'redux',
+      link: '#5',
+    },
+    {
+      id: 6,
+      logo: gatsby,
+      name: 'gatsby',
+      link: '#6',
+    },
+    {
+      id: 7,
+      logo: jamstack,
+      name: 'jamstack',
+      link: '#7',
+    },
+    {
+      id: 8,
+      logo: vue,
+      name: 'vue',
+      link: '#8',
+    },
+    {
+      id: 9,
+      logo: couchbase,
+      name: 'couchbase',
+      link: '#9',
+    },
+    {
+      id: 10,
+      logo: aws,
+      name: 'aws',
+      link: '#10',
+    },
+    {
+      id: 11,
+      logo: elk,
+      name: 'elk',
+      link: '#11',
+    },
+    {
+      id: 12,
+      logo: grafana,
+      name: 'grafana',
+      link: '#12',
+    },
+  ],
+};
 
 export const FOOTER_MENU = [
   {
