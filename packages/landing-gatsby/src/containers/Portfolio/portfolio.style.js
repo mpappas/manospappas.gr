@@ -147,7 +147,7 @@ export const ContentWrapper = styled.div`
     transition: 0.2s ease-in-out;
     &:before {
       content: '';
-      background-color: ${themeGet('colors.primary', '#3444f1')};
+      background-color: ${themeGet('colors.primary', '#0ECEA9')};
       position: absolute;
       width: calc(100% + 4px);
       height: calc(100% + 4px);

@@ -10,10 +10,11 @@ import Button from 'common/components/Button';
 import Container from 'common/components/UI/Container';
 import { plus } from 'react-icons-kit/feather/plus';
 
-import { ButtonWrapper } from '../../Portfolio/portfolio.style';
+// import { ButtonWrapper } from '../../Portfolio/portfolio.style';
 import ProcessItem from './process.style';
 
 const ProcessSection = ({
+  button,
   sectionWrapper,
   secTitleWrapper,
   secTitle,
@@ -30,8 +31,6 @@ const ProcessSection = ({
   learningSubTitle,
   learningDescription,
   buttonWrapper,
-  buttonLabelStyle,
-  buttonStyle,
   learningList,
   listItem,
   listText,
@@ -56,10 +55,6 @@ const ProcessSection = ({
       }
     }
   `);
-
-  const mailto = () => {
-    window.location.href = 'mailto:hello@manospappas.gr';
-  };
 
   return (
     <Box {...sectionWrapper} as="section" id="process_section">
@@ -115,15 +110,9 @@ const ProcessSection = ({
               content="I have successfully collaborated across teams with tasks that include designing, developing, automating and deploying."
             />
             <Box {...buttonWrapper}>
-              {/* <Text content="Let's talk :)" {...buttonLabelStyle} /> */}
-              <ButtonWrapper>
-                <Button
-                  title="hello@manospappas.gr"
-                  onClick={mailto}
-                  className="portfolio_button"
-                  {...buttonStyle}
-                />
-              </ButtonWrapper>
+              <a href="mailto:hello@manospappas.gr">
+                <Button {...button} title="Get In Touch" />
+              </a>
             </Box>
           </Box>
           <Box {...learningListArea}>
@@ -258,26 +247,18 @@ ProcessSection.defaultProps = {
     mb: '25px',
   },
   buttonWrapper: {
+    mt: ['25px', '50px'],
     flexBox: true,
-    alignItems: 'center',
-    mt: ['30px', '40px', '40px', '80px', '80px'],
-    flexWrap: ['wrap'],
+    justifyContent: 'left',
   },
-  buttonLabelStyle: {
-    fontSize: '16px',
-    fontWeight: '500',
-    color: '#3444f1',
-    mb: ['20px', '20px', '20px', '0', '0'],
-    mr: '30px',
-    width: ['100%', '100%', '100%', 'auto', 'auto'],
-  },
-  buttonStyle: {
+  button: {
     type: 'button',
-    fontSize: '16px',
-    fontWeight: '500',
-    color: '#fff',
-    pl: '23px',
-    pr: '23px',
+    fontSize: '14px',
+    fontWeight: '600',
+    borderRadius: '4px',
+    pl: '22px',
+    pr: '22px',
+    height: '46px',
   },
   learningListArea: {
     width: ['100%', '100%', '50%', '50%', '55%'],

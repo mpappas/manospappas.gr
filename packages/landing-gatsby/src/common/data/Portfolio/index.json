@@ -75,7 +75,7 @@
   ],
   "PORTFOLIO_SHOWCASE": [
     {
-      "title": "DESIGN",
+      "title": "WEB APPLICATIONS",
       "portfolioItem": [
         {
           "title": "Canada Media Site",
@@ -124,7 +124,7 @@
       ]
     },
     {
-      "title": "DEVELOPMENT",
+      "title": "E-COMMERCE",
       "portfolioItem": [
         {
           "title": "Canada Media Site",
@@ -173,7 +173,7 @@
       ]
     },
     {
-      "title": "ANIMATION",
+      "title": "INTEGRATIONS",
       "portfolioItem": [
         {
           "title": "Canada Media Site",
@@ -222,7 +222,7 @@
       ]
     },
     {
-      "title": "TV ADVERTISEMENT",
+      "title": "WORDPRESS",
       "portfolioItem": [
         {
           "title": "Canada Media Site",
@@ -271,7 +271,7 @@
       ]
     },
     {
-      "title": "MARKETING",
+      "title": "MOBILE APPLICATIONS",
       "portfolioItem": [
         {
           "title": "Canada Media Site",
@@ -444,19 +444,31 @@
   },
   "SERVICE_LIST": [
     {
-      "title": "Languages",
+      "title": "Back-end",
       "listItems": [
         {
-          "content": "JS (ES2020)"
+          "content": "NodeJS"
         },
         {
-          "content": "Typescript"
+          "content": "Express / Restify"
         },
         {
-          "content": "Python"
+          "content": "CI/CD"
         },
         {
-          "content": "Groovy"
+          "content": "Microservices"
+        },
+        {
+          "content": "API Development"
+        },
+        {
+          "content": "Third-party API Integration"
+        },
+        {
+          "content": "NoSQL"
+        },
+        {
+          "content": "GraphQL/Apollo"
         }
       ]
     },
@@ -483,29 +495,6 @@
         },
         {
           "content": "Wordpress"
-        }
-      ]
-    },
-    {
-      "title": "Back-end",
-      "listItems": [
-        {
-          "content": "NodeJS"
-        },
-        {
-          "content": "Express / Restify"
-        },
-        {
-          "content": "CI/CD"
-        },
-        {
-          "content": "Microservices"
-        },
-        {
-          "content": "NoSQL"
-        },
-        {
-          "content": "GraphQL/Apollo"
         }
       ]
     },
@@ -563,6 +552,23 @@
         },
         {
           "content": "Grafana"
+        }
+      ]
+    },
+    {
+      "title": "Languages",
+      "listItems": [
+        {
+          "content": "JS (ES2020)"
+        },
+        {
+          "content": "Typescript"
+        },
+        {
+          "content": "Python"
+        },
+        {
+          "content": "Groovy"
         }
       ]
     }

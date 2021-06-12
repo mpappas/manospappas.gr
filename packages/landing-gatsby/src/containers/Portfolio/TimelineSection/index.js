@@ -19,13 +19,9 @@ import {
   Hidden,
 } from './timeline.style';
 
-import SectionWrapper, {
-  ClientWrapper,
-  ImageSlider,
-  ImageSlide,
-} from './experience.style';
+import { ClientWrapper, ImageSlider, ImageSlide } from './experience.style';
 
-import Illustration from 'common/assets/image/portfolio/6.png';
+import Illustration from 'common/assets/image/portfolio/6-01.svg';
 
 const TimelineSection = ({
   sectionWrapper,
@@ -144,11 +140,6 @@ const TimelineSection = ({
             </ImageSlide>
           </ImageSlider>
         </ClientWrapper>
-        {/* <Box {...buttonWrapper}>
-          <a href="#1">
-            <Button {...button} title="HIRE FOR PROJECT" />
-          </a>
-        </Box> */}
       </Container>
     </Box>
   );

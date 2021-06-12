@@ -1,12 +1,8 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import Masonry from 'react-masonry-component';
-import { Icon } from 'react-icons-kit';
-import { chevronRight } from 'react-icons-kit/feather/chevronRight';
-
 import Container from 'common/components/UI/ContainerTwo';
 import Image from 'common/components/Image';
-import Link from 'common/components/Link';
 import SectionHeading from '../SectionHeading';
 import Section, { ContentWrapper, BlogPost } from './news.style';
 
