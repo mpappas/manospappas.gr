@@ -53,7 +53,7 @@ export const FooterNavItem = styled.li`
     font-size: 14px;
     transition: 0.15s ease-in-out;
     &:hover {
-      color: #3444f1;
+      color: #0e6ebc;
     }
   }
 `;

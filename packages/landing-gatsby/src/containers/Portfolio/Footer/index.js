@@ -47,11 +47,11 @@ const Footer = ({ row, col, titleStyle, linkStyle, copyrightStyle }) => {
           <Box {...col}>
             <Heading
               as="h2"
-              content="Having a project in mind?"
+              content="Let's build something together."
               {...titleStyle}
             />
             <a href="mailto:hello@manospappas.gr">
-              <Heading as="h5" content="Let’s Work Together" {...linkStyle} />
+              <Heading as="h5" content="Get in touch" {...linkStyle} />
             </a>
           </Box>
         </Box>

@@ -23,6 +23,9 @@ import { PrevButton, NextButton } from '../portfolio.style';
 
 const PortfolioShowcase = ({
   sectionWrapper,
+  sectionHeader,
+  sectionTitle,
+  sectionSubTitle,
   secTitleWrapper,
   secTitle,
   secDescription,
@@ -69,15 +72,9 @@ const PortfolioShowcase = ({
   return (
     <Box {...sectionWrapper} as="section" id="portfolio_section">
       <Container noGutter mobileGutter width="1200px">
-        <Box {...secTitleWrapper}>
-          <Heading
-            {...secTitle}
-            content="<Maybe for Hobies Sport-Books etc>Making Ideas Come to Life !"
-          />
-          <Text
-            {...secDescription}
-            content="Year after year, Blue Label Labs has been recognized as one of the top design and development firms in New York City. It’s nice to feel appreciated!"
-          />
+        <Box {...sectionHeader}>
+          <Text {...sectionSubTitle} content="PORTFOLIO" />
+          <Heading {...sectionTitle} content="Projects I've worked on" />
         </Box>
 
         <PortfolioShowcaseWrapper>
@@ -218,27 +215,56 @@ PortfolioShowcase.propTypes = {
 
 PortfolioShowcase.defaultProps = {
   sectionWrapper: {
-    pt: ['60px', '80px', '100px', '110px', '150px'],
-    pb: ['60px', '80px', '100px', '110px', '150px'],
+    as: 'section',
+    pt: ['60px', '80px', '80px', '80px'],
+    pb: ['60px', '80px', '80px', '80px'],
+    bg: '#f9f9f9',
+  }, // section header default style
+  sectionHeader: {
+    mb: '56px',
   },
-  secTitleWrapper: {
-    width: ['100%', '100%', '60%', '50%', '50%'],
-    mb: ['50px', '65px'],
+  // sub section default style
+  sectionSubTitle: {
+    as: 'span',
+    display: 'block',
+    textAlign: 'center',
+    fontSize: '14px',
+    letterSpacing: '0.15em',
+    fontWeight: '700',
+    color: '#5268db',
+    mb: '10px',
   },
-  secTitle: {
-    fontSize: ['22px', '26px', '26px', '30px', '30px'],
-    fontWeight: '600',
-    color: '#302b4e',
-    lineHeight: '1.34',
-    mb: ['15px', '18px', '18px', '20px', '20px'],
-  },
-  secDescription: {
-    fontSize: ['15px', '16px'],
-    fontWeight: '400',
-    color: '#43414e',
-    lineHeight: '1.5',
+  // section title default style
+  sectionTitle: {
+    textAlign: 'center',
+    fontSize: ['20px', '24px'],
+    fontWeight: '500',
+    color: '#0f2137',
+    letterSpacing: '-0.025em',
     mb: '0',
   },
+  // sectionWrapper: {
+  //   pt: ['60px', '80px', '100px', '110px', '150px'],
+  //   pb: ['60px', '80px', '100px', '110px', '150px'],
+  // },
+  // secTitleWrapper: {
+  //   width: ['100%', '100%', '60%', '50%', '50%'],
+  //   mb: ['50px', '65px'],
+  // },
+  // secTitle: {
+  //   fontSize: ['22px', '26px', '26px', '30px', '30px'],
+  //   fontWeight: '600',
+  //   color: '#302b4e',
+  //   lineHeight: '1.34',
+  //   mb: ['15px', '18px', '18px', '20px', '20px'],
+  // },
+  // secDescription: {
+  //   fontSize: ['15px', '16px'],
+  //   fontWeight: '400',
+  //   color: '#43414e',
+  //   lineHeight: '1.5',
+  //   mb: '0',
+  // },
   portfolioImage: {
     width: [1, 1, 1 / 2],
   },

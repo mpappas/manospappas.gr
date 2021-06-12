@@ -11,7 +11,8 @@ import Container from 'common/components/UI/Container';
 import BannerWrapper from './banner.style';
 
 import { cornerDownRight } from 'react-icons-kit/feather/cornerDownRight';
-import PersonImage from 'common/assets/image/portfolio/6-01.svg';
+// import PersonImage from 'common/assets/image/portfolio/6-01.svg';
+import PersonImage from 'common/assets/image/portfolio/illustrations/12-01.svg';
 
 const BannerSection = ({
   row,
@@ -46,7 +47,7 @@ const BannerSection = ({
             <Box {...roleWrapper}>
               <Icon
                 icon={cornerDownRight}
-                style={{ color: '#3444f1' }}
+                style={{ color: '#F26C5D' }}
                 size={22}
               />
               <Heading content="working for Vonage" {...roleStyle} />

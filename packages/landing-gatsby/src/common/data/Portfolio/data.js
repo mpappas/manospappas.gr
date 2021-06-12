@@ -126,7 +126,7 @@ export const AWARDS = [
 
 export const PORTFOLIO_SHOWCASE = [
   {
-    title: 'DESIGN',
+    title: 'WEB APPLICATIONS',
     portfolioItem: [
       {
         title: 'Canada Media Site',
@@ -177,7 +177,7 @@ export const PORTFOLIO_SHOWCASE = [
     ],
   },
   {
-    title: 'DEVELOPMENT',
+    title: 'E-COMMERCE',
     portfolioItem: [
       {
         title: 'Canada Media Site',
@@ -228,7 +228,7 @@ export const PORTFOLIO_SHOWCASE = [
     ],
   },
   {
-    title: 'ANIMATION',
+    title: 'INTEGRATIONS',
     portfolioItem: [
       {
         title: 'Canada Media Site',
@@ -279,7 +279,7 @@ export const PORTFOLIO_SHOWCASE = [
     ],
   },
   {
-    title: 'TV ADVERTISEMENT',
+    title: 'WORDPRESS',
     portfolioItem: [
       {
         title: 'Canada Media Site',
@@ -330,7 +330,7 @@ export const PORTFOLIO_SHOWCASE = [
     ],
   },
   {
-    title: 'MARKETING',
+    title: 'MOBILE APPLICATIONS',
     portfolioItem: [
       {
         title: 'Canada Media Site',
