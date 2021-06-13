@@ -1,47 +1,31 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { useStaticQuery, graphql } from 'gatsby';
 import Box from 'common/components/Box';
 import Text from 'common/components/Text';
 import Heading from 'common/components/Heading';
 import Container from 'common/components/UI/Container';
-import SocialProfile from '../SocialProfile';
+// import SocialProfile from '../SocialProfile';
 
 import { FooterWrapper } from './footer.style';
 
 const Footer = ({ row, col, titleStyle, linkStyle, copyrightStyle }) => {
-  const Data = useStaticQuery(graphql`
-    query {
-      portfolioJson {
-        FOOTER_MENU {
-          label
-          path
-        }
-        SOCIAL_PROFILES {
-          icon
-          url
-        }
-      }
-    }
-  `);
-
   return (
     <FooterWrapper>
       <Container noGutter mobileGutter width="1200px">
         <Box {...row}>
           <Box {...col}>
-            <SocialProfile
+            {/* <SocialProfile
               className="footer_social"
               items={Data.portfolioJson.SOCIAL_PROFILES}
               iconSize={40}
-            />
+            /> */}
             <Text
               as="span"
-              content="© 2018 All rights reserved. "
+              content="© 2021 All rights reserved. "
               {...copyrightStyle}
             />
-            <a href="#1">
-              <Text as="span" content=" RedQ, Inc." {...copyrightStyle} />
+            <a href="http://antami.io/">
+              <Text as="span" content=" Antami.io" {...copyrightStyle} />
             </a>
           </Box>
           <Box {...col}>
@@ -90,7 +74,7 @@ Footer.defaultProps = {
   },
   linkStyle: {
     fontSize: ['22px', '26px', '26px', '30px'],
-    color: '#3444f1',
+    color: '#0dcfa9',
     mb: 0,
   },
   copyrightStyle: {

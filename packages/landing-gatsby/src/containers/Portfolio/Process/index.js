@@ -15,6 +15,9 @@ import ProcessItem from './process.style';
 
 const ProcessSection = ({
   button,
+  sectionHeader,
+  sectionTitle,
+  sectionSubTitle,
   sectionWrapper,
   secTitleWrapper,
   secTitle,
@@ -59,6 +62,11 @@ const ProcessSection = ({
   return (
     <Box {...sectionWrapper} as="section" id="process_section">
       <Container noGutter mobileGutter width="1200px">
+        <Box {...sectionHeader}>
+          <Text {...sectionSubTitle} content="PORTFOLIO" />
+          <Heading {...sectionTitle} content="Projects I've worked on" />
+        </Box>
+
         <Box {...secTitleWrapper}>
           <Heading {...secTitle} content="I'm a full-stack web developer" />
           <Text
@@ -182,6 +190,29 @@ ProcessSection.defaultProps = {
     lineHeight: '1.5',
     mb: '0',
     textAlign: 'center',
+  },
+  sectionHeader: {
+    mb: '56px',
+  },
+  // sub section default style
+  sectionSubTitle: {
+    as: 'span',
+    display: 'block',
+    textAlign: 'center',
+    fontSize: '14px',
+    letterSpacing: '0.15em',
+    fontWeight: '700',
+    color: '#0dcfa9',
+    mb: '10px',
+  },
+  // section title default style
+  sectionTitle: {
+    textAlign: 'center',
+    fontSize: ['20px', '24px'],
+    fontWeight: '500',
+    color: '#0f2137',
+    letterSpacing: '-0.025em',
+    mb: '0',
   },
   processRow: {
     flexBox: true,

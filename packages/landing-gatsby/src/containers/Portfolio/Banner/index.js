@@ -47,7 +47,7 @@ const BannerSection = ({
             <Box {...roleWrapper}>
               <Icon
                 icon={cornerDownRight}
-                style={{ color: '#F26C5D' }}
+                style={{ color: '#0dcfa9' }}
                 size={22}
               />
               <Heading content="working for Vonage" {...roleStyle} />

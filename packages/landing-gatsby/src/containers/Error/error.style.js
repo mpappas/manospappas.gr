@@ -7,7 +7,7 @@ export const ErrorWrapper = styled.div`
   align-items: center;
 `;
 
-export const ErrorConatent = styled.div`
+export const ErrorContent = styled.div`
   width: 450px;
   max-width: 100%;
   margin: 0 auto;

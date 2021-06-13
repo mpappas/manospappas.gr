@@ -3,8 +3,6 @@ import PropTypes from 'prop-types';
 import { useStaticQuery, graphql } from 'gatsby';
 import Image from 'gatsby-image';
 import Tabs, { TabPane } from 'rc-tabs';
-// import TabContent from 'rc-tabs/lib/TabContent';
-// import ScrollableInkTabBar from 'rc-tabs/lib/ScrollableInkTabBar';
 import Box from 'common/components/Box';
 import Text from 'common/components/Text';
 import Heading from 'common/components/Heading';
@@ -26,9 +24,6 @@ const PortfolioShowcase = ({
   sectionHeader,
   sectionTitle,
   sectionSubTitle,
-  secTitleWrapper,
-  secTitle,
-  secDescription,
   portfolioImage,
   portfolioDetails,
   titleStyle,
@@ -231,7 +226,7 @@ PortfolioShowcase.defaultProps = {
     fontSize: '14px',
     letterSpacing: '0.15em',
     fontWeight: '700',
-    color: '#5268db',
+    color: '#0dcfa9',
     mb: '10px',
   },
   // section title default style
@@ -243,28 +238,6 @@ PortfolioShowcase.defaultProps = {
     letterSpacing: '-0.025em',
     mb: '0',
   },
-  // sectionWrapper: {
-  //   pt: ['60px', '80px', '100px', '110px', '150px'],
-  //   pb: ['60px', '80px', '100px', '110px', '150px'],
-  // },
-  // secTitleWrapper: {
-  //   width: ['100%', '100%', '60%', '50%', '50%'],
-  //   mb: ['50px', '65px'],
-  // },
-  // secTitle: {
-  //   fontSize: ['22px', '26px', '26px', '30px', '30px'],
-  //   fontWeight: '600',
-  //   color: '#302b4e',
-  //   lineHeight: '1.34',
-  //   mb: ['15px', '18px', '18px', '20px', '20px'],
-  // },
-  // secDescription: {
-  //   fontSize: ['15px', '16px'],
-  //   fontWeight: '400',
-  //   color: '#43414e',
-  //   lineHeight: '1.5',
-  //   mb: '0',
-  // },
   portfolioImage: {
     width: [1, 1, 1 / 2],
   },
