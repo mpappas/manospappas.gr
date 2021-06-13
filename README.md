@@ -1,85 +1,71 @@
-<h1>
-🔥 manospappas.gr 🚀
+<div align="center">
+  <img alt="Logo" src="./packages/landing-gatsby/src/common/assets/image/portfolio/logo_short.png" width="100" />
+</div>
+<h1 align="center">
+🔥 manospappas.gr - v1 🚀
 </h1>
+<p align="center">
+  The fourth iteration of <a href="https://manospappas.gr" target="_blank">manospappas.gr</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
+</p>
+<p align="center">
+  <a href="https://app.netlify.com/sites/awesome-villani-9cd9c5/deploys" target="_blank">
+    <img src="https://api.netlify.com/api/v1/badges/1963b488-7b78-48c9-9e2d-6fb5e47ab3af/deploy-status" alt="Netlify Status" />
+  </a>
+</p>
 
-## Installation
+![demo](packages/landing-gatsby/src/common/assets/image/demo_v1.png)
 
-After downloading the file from Themeforest, You will find SuperProps.zip file. Then unzip the SuperProps.zip and run the following commands on SuperProps folder to get started with the project.
+## 🛠 Installation & Set Up
 
-```
-yarn
-```
+1. Install the Gatsby CLI
 
-```
-// For starting GatsbyJs Server run
-yarn gatsby-dev
-```
+   ```sh
+   npm install -g gatsby-cli
+   ```
+
+2. Install and use the correct version of Node using [NVM](https://github.com/nvm-sh/nvm)
+
+   ```sh
+   nvm install
+   ```
+
+3. Install dependencies
+
+   ```sh
+   yarn
+   ```
+
+4. Start the development server
+
+   ```sh
+   yarn gatsby-dev
+   ```
+
+## 🚀 Building and Running for Production
+
+1. Generate a full static production build
+
+   ```sh
+   yarn gatsby-build
+   ```
+
+1. Preview the site as it will appear once deployed
+
+   ```sh
+   yarn gatsby-serve
+   ```
 
 GatsbyJs server will start in `localhost:8000`
 
 # Stack I Have Used
 
-1. Lerna (A tool for managing JavaScript projects with multiple packages. https://lernajs.io)
-2. Yarn Workspace
-3. React Js and Next Js
-4. Gatsby Js
-5. Styled System and Styled Components
-6. Firebase Deployment.
-7. Vercel Deployment.
+- React Js and Gatsby Js
+- Styled System and Styled Components
 
-# Development
+# Future steps - Improvements
 
-Follow the below procedure to go with the development process.
-
-# Explaining Containers
-
-In the `containers` directory you will get folder for our every template. If you want to use App template. Then in the `Portfolio` directory you will get folders containing different section of the template like `Banner`, `Footer`, `Testimonial`, `Navbar` etc.
-
-All of these containers contains regular reactjs code.
-
-# Deployment
-
-For deploying your final project you have to build your project first. To build the project you have to follow below procedure.
-
-### GatsbyJs
-
-Run the below command on
-
-```
-yarn gatsby-build
-
-// To check the build version locally run below command
-// Not necessary if you don't want to check on your local.
-
-yarn gatsby-serve
-```
-
-If you run `yarn gatsby-serve` then the build version the the project will start in `localhost:9000` . Navigate to the url you will get your site up and running.
-
-## Running with Docker
-
-To run the SuperProps Gatsby.js app in docker
-
-```
-yarn gatsby-build
-docker build -t superprops/landing-gatsby -f ./packages/landing-gatsby/Dockerfile .
-docker run -it -p 8000:8000 superprops/landing-gatsby:latest
-open http://localhost:8000
-```
-
-# Deployment Support
-
-## Netlify
-
-At first, open an account on netlify and go to `sites` tab.
-
-### GatsbyJs
-
-If you want to host the `gatsbyjs` project, go to your command line and run this command on `packages/landing-gatsby` directory.
-
-```
-yarn build
-```
-
-After running above command go to `landing-gatsby` folder. You will find a `public` folder
-there. Drag and drop this `public` folder on netlify `sites` tab.
+- [ ] Implement Portfolio component
+- [ ] Implement News component
+- [ ] Add articles list and integrate with blog
+- [ ] Add analytics
+- [ ] Improve load time - performance
