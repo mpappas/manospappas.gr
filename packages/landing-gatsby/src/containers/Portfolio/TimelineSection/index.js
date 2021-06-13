@@ -180,7 +180,7 @@ TimelineSection.defaultProps = {
     fontSize: '14px',
     letterSpacing: '0.15em',
     fontWeight: '700',
-    color: '#5268db',
+    color: '#0dcfa9',
     mb: '10px',
   },
   // section title default style
@@ -254,7 +254,7 @@ TimelineSection.defaultProps = {
   indexStyle: {
     fontSize: ['36px', '42px', '52px', '56px', '72px'],
     fontWeight: '300',
-    color: '#37A48E',
+    color: '#0dcfa9',
     display: 'block',
     lineHeight: '1',
     mb: '0',

@@ -23,7 +23,7 @@ export const TimelineDot = styled.div`
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: #ebedf5;
+    background: #08527a;
     transition: 0.25s ease-in-out;
   }
   @media (max-width: 480px) {
@@ -57,7 +57,7 @@ export const TimelineItem = styled.div`
   &:hover {
     ${TimelineDot} {
       &:after {
-        background: #5268db;
+        background: #0dcfa9;
       }
     }
   }

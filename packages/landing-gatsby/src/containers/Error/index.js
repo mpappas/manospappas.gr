@@ -7,10 +7,10 @@ import Text from 'common/components/Text';
 import Heading from 'common/components/Heading';
 import Image from 'common/components/Image';
 import Button from 'common/components/Button';
-import ErrorImage from 'common/assets/image/404.svg';
 import { home } from 'react-icons-kit/entypo/home';
 import { ccw } from 'react-icons-kit/entypo/ccw';
-import { ErrorWrapper, ErrorConatent, ButtonWrapper } from './error.style';
+import { ErrorWrapper, ErrorContent, ButtonWrapper } from './error.style';
+import ErrorImage from 'common/assets/image/404.svg';
 
 const ErrorSec = ({ imageWrapper, title, text, reloadButton, homeButton }) => {
   const pageReload = () => {
@@ -18,7 +18,7 @@ const ErrorSec = ({ imageWrapper, title, text, reloadButton, homeButton }) => {
   };
   return (
     <ErrorWrapper>
-      <ErrorConatent>
+      <ErrorContent>
         <Box {...imageWrapper} className="image-wrapper">
           <Image src={ErrorImage} alt="404" />
         </Box>
@@ -44,7 +44,7 @@ const ErrorSec = ({ imageWrapper, title, text, reloadButton, homeButton }) => {
             />
           </Link>
         </ButtonWrapper>
-      </ErrorConatent>
+      </ErrorContent>
     </ErrorWrapper>
   );
 };
@@ -83,7 +83,7 @@ ErrorSec.defaultProps = {
     pl: ['15px', '22px'],
     pr: ['15px', '22px'],
     iconPosition: 'left',
-    bg: '#eaa03b',
+    bg: '#08527a',
     fontFamily: 'lato',
   },
   homeButton: {

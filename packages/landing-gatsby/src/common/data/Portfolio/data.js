@@ -77,51 +77,6 @@ export const MENU_ITEMS = [
     path: '#process_section',
     offset: '0',
   },
-  {
-    label: 'PROJECT',
-    path: '#portfolio_section',
-    offset: '0',
-  },
-  {
-    label: "LET'S TALK",
-    path: '#contact_section', // Was linked to #awards_section
-    offset: '0',
-  },
-];
-
-export const AWARDS = [
-  {
-    awardLogo: AwardImage1,
-    awardName: 'Free Software Advice',
-    awardDetails: 'Top Rated App Development Companies USA',
-    awardeeLogo: Awardee1,
-    awardeeName: 'Awardee',
-    date: 'The Jury 2018',
-  },
-  {
-    awardLogo: AwardImage2,
-    awardName: 'Free Software Advice',
-    awardDetails: 'Top Rated App Development Companies USA',
-    awardeeLogo: Awardee2,
-    awardeeName: 'Awardee',
-    date: 'The Jury 2018',
-  },
-  {
-    awardLogo: AwardImage3,
-    awardName: 'Free Software Advice',
-    awardDetails: 'Top Rated App Development Companies USA',
-    awardeeLogo: Awardee3,
-    awardeeName: 'Awardee',
-    date: 'The Jury 2018',
-  },
-  {
-    awardLogo: AwardImage4,
-    awardName: 'Free Software Advice',
-    awardDetails: 'Top Rated App Development Companies USA',
-    awardeeLogo: Awardee4,
-    awardeeName: 'Awardee',
-    date: 'The Jury 2018',
-  },
 ];
 
 export const PORTFOLIO_SHOWCASE = [

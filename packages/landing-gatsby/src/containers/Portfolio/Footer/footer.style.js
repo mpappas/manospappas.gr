@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const FooterWrapper = styled.footer`
   position: relative;
   overflow: hidden;
-  background-color: #1b1e25;
+  background-color: #072a3d;
   padding: 100px 0 0;
   color: #fff;
   @media (max-width: 990px) {

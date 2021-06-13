@@ -3,7 +3,7 @@
   "description": "Modern Multipurpose Landing Pages Template Using React, Next, Styled Components and so on. It also support Gatsby Static site generator ",
   "version": "8.0.1",
   "private": true,
-  "author": "RedQ, Inc",
+  "author": "Manos Pappas",
   "devDependencies": {
     "cross-env": "^7.0.2",
     "husky": "^4.3.0",

@@ -49,7 +49,7 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
             className="main-logo"
           />
           <Logo
-            href="/portfolio"
+            href="/"
             logoSrc={LogoImageAlt}
             title="Portfolio"
             logoStyle={logoStyle}
@@ -83,8 +83,13 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
                 drawerClose={true}
                 offset={-100}
               />
-              <a className="navbar_drawer_button" href="#1">
-                <Button {...button} title="LET'S TALK" />
+              <a
+                className="mobile_menu"
+                href={resumePDF}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button {...button} title="RESUME" />
               </a>
             </Drawer>
           </Box>
