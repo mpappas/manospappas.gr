@@ -98,7 +98,7 @@ const ProcessSection = ({
         <Box {...learningRow}>
           <Box {...learningContentArea}>
             <Heading
-              content="My almost 5 years journey so far in London"
+              content="My 5 years journey in London"
               {...learningTitle}
             />
             <Text

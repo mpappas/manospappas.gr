@@ -73,7 +73,7 @@ export const MENU_ITEMS = [
     offset: '0',
   },
   {
-    label: 'SKILS',
+    label: 'SKILLS',
     path: '#process_section',
     offset: '0',
   },
@@ -502,7 +502,7 @@ export const Timeline = [
   {
     title: 'Cloud Technologies',
     description:
-      'Experience with various AWS services like Lanbda, API Gateway, S3, CloudFront, Cognito, Dynamo-DB, Route53 and more.',
+      'Experience with various AWS services like Lambda, API Gateway, S3, CloudFront, Cognito, Dynamo-DB, Route53 and more.',
   },
 ];
 
