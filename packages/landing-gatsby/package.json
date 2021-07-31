@@ -10,6 +10,7 @@
     "@styled-system/theme-get": "^5.1.2",
     "gatsby": "^2.26.1",
     "gatsby-image": "^2.5.0",
+    "gatsby-plugin-google-gtag": "^3.10.0",
     "gatsby-plugin-manifest": "^2.6.0",
     "gatsby-plugin-offline": "^3.4.0",
     "gatsby-plugin-prefetch-google-fonts": "^1.4.3",
