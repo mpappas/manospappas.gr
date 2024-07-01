@@ -14,6 +14,7 @@ import ScrollSpyMenu from 'common/components/ScrollSpyMenu';
 import LogoImage from 'common/assets/image/portfolio/logo_short.png';
 import LogoImageAlt from 'common/assets/image/portfolio/logo-alt.png';
 import resumePDF from '../../../common/assets/image/portfolio/resume.pdf';
+import resumePDF2024 from '../../../common/assets/image/portfolio/emmanouilpappas-resume.pdf';
 
 const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
   const Data = useStaticQuery(graphql`
@@ -63,7 +64,7 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
             />
             <a
               className="navbar_button"
-              href={resumePDF}
+              href={resumePDF2024}
               target="_blank"
               rel="noopener noreferrer"
             >
